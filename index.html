@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">NEETA DANGI</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <!-- <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div> -->
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one" style="color: rgb(20, 90, 202)">Hello,</div>
+          <div class="typeJsWrapper">
+            <div class="container">
+              <h1 class="typeJsText">
+                I'm DIGITAL MARKETING <br />
+                SPECIALIST
+              </h1>
+            </div>
+          </div>
+
+          <!-- <div class="text-three">UI/UX Designer</div> -->
+          <div class="text-four" style="color: rgb(20, 90, 202)">
+            From India
+          </div>
+        </div>
+        <div class="button">
+          <button onclick="openGmail()">Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="./123.jpeg" alt="no image" />
+          </div>
+          <div class="right">
+            <div class="topic">Marketing is my passion</div>
+            <p>
+              As a digital marketer, I possess a comprehensive skill set
+              encompassing SEO, content marketing, social media management, and
+              email marketing. My expertise in SEO includes keyword research,
+              on-page optimization, and backlink strategies to enhance online
+              visibility. I excel in crafting compelling content that resonates
+              with target audiences and drives engagement. Proficient in social
+              media management, I leverage platforms to build brand awareness
+              and foster customer relationships. Additionally, I design and
+              execute data-driven email campaigns that increase conversion
+              rates. My analytical skills enable me to measure campaign
+              effectiveness and optimize strategies for maximum ROI.
+            </p>
+            <div class="button" onclick="downloadCV()">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section Start -->
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="projects-details">
+          <div class="project-box">
+            <div class="video1">
+              <video class="project-video" controls width="100%" height="100%" controls>
+                <source
+                  src="./Introduction VIdeo.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Project 1: Introduction Video</h3>
+              <p>My Journey as a Digital Marketing.</p>
+              <ul></ul>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-vid">
+              <video class="project-video"  width="100%" height="100%" controls>
+                <source src="./project elite-smart.mp4 elite-smart.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Project 2: Elitemart</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                amet nulla auctor, vestibulum magna sed, convallis ex.
+              </p>
+              <ul>
+                <li><strong>Technologies Used:</strong> HTML , CSS</li>
+                <li><strong>Duration:</strong> 2 weeks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects My Knowledge</div>
+            <p>
+              Canva, Nice Page, E-commerce, Digital marketing: SEO, Social media
+              management, Email Marketing, Product Analyst, M.S. Excel, M.S.
+              Word, M.S. Power Point
+            </p>
+            <div class="experience">
+              <!-- <div class="num">1</div>
+              <div class="exp">
+                Year Of <br />
+                Experience
+              </div> -->
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">Canva</div>
+              <div class="per">100%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Nice page</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Excel</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Visual Studio Code</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Poster Designing</div>
+              <div class="per">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Canva</div>
+            <p>
+              I've designed a wide range of materials on Canva, including
+              posters, logos, and award invitations. I also create flyers,
+              social media graphics, and event banners. My work showcases
+              different styles and elements, tailored to each project's needs.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Social Media Management</div>
+            <p>
+              I handle all types of apps in social media management, such as
+              Instagram, Facebook, YouTube, email, Pinterest, and many others. I
+              develop and implement strategies to boost engagement and manage
+              content across these platforms. My goal is to optimize your online
+              presence and ensure consistent communication with your audience.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">E-commerce Handle</div>
+            <p>
+              I oversee the entire order lifecycle, ensuring smooth transactions
+              and customer satisfaction. Additionally, I manage inquiries and
+              resolve issues promptly to maintain high service standards.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Influencer Marketing</div>
+            <p>
+              nfluencer marketing involves collaborating with individuals who
+              have a significant online following to promote products or
+              services. These influencers leverage their credibility and reach
+              to create authentic content that resonates with their audience.
+              This strategy enhances brand visibility and drives consumer
+              engagement effectively.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Documentation and Reporting</div>
+            <p>
+              Documenting test plans, test cases, and test results for
+              transparency and future reference. Generating comprehensive test
+              reports for stakeholders to communicate findings and
+              recommendations
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Performance Monitoring and Optimization</div>
+            <p>
+              Monitoring application performance metrics and identifying areas
+              for optimization. Collaborating with development teams to
+              implement performance improvements based on testing results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Got a Project? Let's Ensure Quality Together!</div>
+          <p>
+            Creative Digital Marketer specializing in data-driven strategies and
+            impactful campaigns. Driving growth through innovative solutions and
+            targeted engagement.
+          </p>
+          <div class="button" onclick="openGmail()">
+            <button>Let's Chat</button>>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
